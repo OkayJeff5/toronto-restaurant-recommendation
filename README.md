@@ -1,6 +1,6 @@
 # Toronto Restaurant Recommendation System
 
-![Toronto Skyline at Sunset](https://upload.wikimedia.org/wikipedia/commons/3/3c/Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg)
+![Toronto Skyline at Sunset](https://upload.wikimedia.org/wikipedia/commons/archive/3/3c/20190501044356%21Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg)
 
 <sub>Photo by Jchmrt, licensed under CC BY‑SA 4.0 on Wikimedia Commons</sub>
 
@@ -143,7 +143,7 @@ jupyter
 
 ## 👤 Author
 
-**Siyu (Jeff) Liu** — Toronto, Canada
+**Jeff Sheng** — Toronto, Canada
 
 - GitHub: [@OkayJeff5](https://github.com/OkayJeff5)
 - LinkedIn: [linkedin.com/in/okayjeff5](https://www.linkedin.com/in/okayjeff5)
