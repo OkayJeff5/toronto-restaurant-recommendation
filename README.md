@@ -1,8 +1,8 @@
 # Toronto Restaurant Recommendation System
 
-![Toronto Skyline at Sunset](https://upload.wikimedia.org/wikipedia/commons/3/3c/Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg)
+![Toronto Skyline at Night](https://upload.wikimedia.org/wikipedia/commons/1/12/Toronto_-_ON_-_Skyline10.jpg)
 
-<sub>Photo by Jchmrt, licensed under CC BY‑SA 4.0 on Wikimedia Commons</sub>
+<sub>Photo by Michael Caven, CC BY 2.0</sub>
 
 ---
 
@@ -31,16 +31,6 @@ Toronto has a huge and diverse restaurant scene. Choosing a place to eat can be 
 - `Restaurant Latitude`
 - `Restaurant Longitude`
 
-**Missing values (raw):**
-
-- Restaurant Price Range: **4,280**
-- Restaurant Website: **4,845**
-- Restaurant Phone: **705**
-- Restaurant Address: **48**
-- Restaurant Latitude: **48**
-- Restaurant Longitude: **48**
-- Category, Restaurant Name, Restaurant Yelp URL: **0**
-
 > Note: This dataset does **not** contain user ratings or textual reviews.
 
 ---
@@ -60,7 +50,7 @@ Toronto has a huge and diverse restaurant scene. Choosing a place to eat can be 
 3. **Feature Engineering**
 
    - **Price Range → Numeric scale** (e.g., `Under $10`, `$11-30`, `$31-60`, `Above $61`).
-   - **Category → One-hot encoding** (e.g., `cat_Ramen`, `cat_Pizza`, …).
+   - **Category → One-hot encoding** (e.g., `Ramen`, `Pizza`, …).
    - **Latitude/Longitude → Min–Max scaling** to [0, 1] for distance-aware similarity.
 
 4. **Modeling (Content-Based Recommender)**
@@ -104,19 +94,16 @@ cd toronto-restaurant-recommender
 
 # Create and activate a virtual environment with uv
 uv venv
-# Windows:
+# Windows (CMD/PowerShell):
 .venv\Scripts\activate
-# Mac/Linux:
+# macOS / Linux:
 source .venv/bin/activate
 
 # Install dependencies
 uv pip install -r requirements.txt
 
-# (Option A) Work in Jupyter
-jupyter notebook
-
-# (Option B) Run a script (if you have a recommend.py)
-python recommend.py
+# Run the recommender (interactive prompt)
+python main.py
 ```
 
 **Suggested dependencies (`requirements.txt`):**
